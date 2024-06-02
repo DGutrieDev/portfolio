@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/BG_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main_content {
+  width: 100vw;
+  height: 100vh;
+  position: relative; /* Cambiado de absolute a relative */
+  top: 0;
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+section {
+  flex: 1; /* Permite que las secciones ocupen el espacio disponible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: brightness(15%);
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("./assets/BG_image.jpg");
+  }
+  .main_content {
+    width: 100vw;
+    height: 100vh;
+  }
+  section {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,171 @@
+:root {
+  --nav_height: 4.5rem;
+  --nav_width: 100%;
+  --nav_content_width: 75%;
+  --nav_content_height: 3.5rem;
+  --nav_content_width_mob: 90%;
+  --nav_content_height_mob: 3.5rem;
+  --nav_content_width_tab: 85%;
+  --nav_content_height_tab: 3.5rem;
+}
+
+.navbar_container {
+  width: var(--nav_width);
+  height: var(--nav_height);
+  border: none;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: transparent;
+}
+
+.navbar_content {
+  width: var(--nav_content_width);
+  height: var(--nav_content_height);
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all 0.5s ease-in;
+}
+
+.account_links {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_links {
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account_list {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.account_link a {
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  transition: all 0.3s ease-in;
+}
+
+.account_link i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.portfolio_list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.portfolio_link a {
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  transition: all 0.3s ease-in;
+}
+
+.portfolio_link i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.portfolio_link a:hover {
+  color: #00ffff;
+}
+
+.account_link a:hover {
+  color: #00ffff;
+}
+
+.navbar_content:hover {
+  box-shadow: 0px 0px 10px #00ffff;
+  border: 2px solid #00ffff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar_content {
+    width: var(--nav_content_width_tab);
+    height: var(--nav_content_height_tab);
+  }
+
+  .portfolio_links p {
+    display: none;
+  }
+
+  .account_links p {
+    display: none;
+  }
+
+  .portfolio_link i {
+    font-size: 25px;
+  }
+
+  .account_link i {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar_container {
+    width: var(--nav_width);
+    height: var(--nav_height);
+  }
+
+  .navbar_content {
+    width: var(--nav_content_width_mob);
+    height: var(--nav_content_height_mob);
+  }
+
+  .account_links {
+    display: none;
+  }
+
+  .portfolio_links {
+    width: 100%;
+  }
+
+  .portfolio_links p {
+    display: none;
+  }
+
+  .portfolio_link a {
+    color: #ffff;
+  }
+
+  .portfolio_link i {
+    font-size: 20px;
+  }
+
+  .portfolio_link a:hover {
+    color: #ffff;
+  }
+
+  .account_link a:hover {
+    color: #ffff;
+  }
+
+  .navbar_content:hover {
+    box-shadow: 0px 0px 1.5px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+  }
+}

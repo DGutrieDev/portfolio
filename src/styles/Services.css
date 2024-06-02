@@ -1,0 +1,245 @@
+.services_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  backdrop-filter: brightness(25%);
+}
+
+.service_tittle {
+  width: 100vw;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 25px;
+  cursor: default;
+}
+
+.service_container {
+  width: 100%;
+  height: fit-content;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 45px;
+}
+
+.service_descrip {
+  cursor: default;
+  width: 20vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 10px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.5s ease-out;
+}
+
+.service_descrip:hover {
+  box-shadow: 0px 0px 5px #00FFFF;
+  border: 2px solid #00FFFF;
+  color: #00FFFF;
+}
+
+.service_descrip i {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.service_descrip h4 {
+  font-size: 22px;
+}
+
+.service_descrip p {
+  margin-top: 15px;
+  width: 95%;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+
+.service_descrip:hover p {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .service_tittle {
+    height: 1.5rem;
+    font-size: 18px;
+  }
+
+  .service_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px 15px;
+  }
+
+  .service_descrip {
+    width: 75vw;
+    height: 45vh;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 3px rgba(227, 228, 237, 0.37);
+    padding: 15px;
+  }
+
+  .service_descrip i {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .service_descrip h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .service_descrip p {
+    font-size: 10px;
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .service_tittle {
+    height: 1.5rem;
+    font-size: 18px;
+  }
+
+  .service_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px 15px;
+  }
+
+  .service_descrip {
+    width: 75vw;
+    height: 25vh;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 3px rgba(227, 228, 237, 0.37);
+    padding: 15px;
+  }
+
+  .service_descrip i {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .service_descrip h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .service_descrip p {
+    font-size: 10px;
+    opacity: 1;
+  }
+  .service_descrip:hover {
+    box-shadow: 0px 0px 1px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services_container {
+    padding-top: 5.5rem;
+  }
+
+  .service_tittle {
+    height: 2rem;
+    font-size: 20px;
+  }
+
+  .service_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+    gap: 25px 20px;
+  }
+
+  .service_descrip {
+    width: 80vw;
+    height: auto;
+    backdrop-filter: blur(40px);
+    box-shadow: 0px 0px 1px rgba(227, 228, 237, 0.37);
+    padding: 20px;
+  }
+
+  .service_descrip i {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .service_descrip h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .service_descrip p {
+    font-size: 12px;
+    opacity: 1;
+  }
+
+  .service_descrip:hover {
+    box-shadow: 0px 0px 1px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .service_tittle {
+    height: 1.5rem;
+    font-size: 18px;
+  }
+
+  .service_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px 15px;
+  }
+
+  .service_descrip {
+    width: 90vw;
+    height: auto;
+    backdrop-filter: blur(50px);
+    box-shadow: 0px 0px 3px rgba(227, 228, 237, 0.37);
+    padding: 15px;
+  }
+
+  .service_descrip i {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .service_descrip h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .service_descrip p {
+    font-size: 10px;
+    opacity: 1;
+  }
+  .service_descrip:hover {
+    box-shadow: 0px 0px 1px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: #fff;
+  }
+}
