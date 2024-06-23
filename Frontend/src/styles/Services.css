@@ -1,0 +1,128 @@
+.services_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.service_tittle {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 25px;
+  cursor: default;
+}
+
+.service_content {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.2rem;
+}
+
+.service_info {
+  width: 800px;
+  height: 125px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.238);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  transition: 0.5s;
+}
+
+.service_name {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in;
+}
+
+.service_name i {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.service_name p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.service_descrip {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.5s ease-in;
+}
+
+.service_descrip p {
+  font-size: 15px;
+}
+
+@media only screen and (width > 1200px) {
+  .service_info:hover {
+    transform: scale(1.1);
+    .service_descrip {
+      color: #ffa500;
+    }
+    .service_name {
+      color: #ffa500;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services_container {
+    flex-direction: column;
+  }
+
+  .service_tittle {
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+  }
+
+  .service_content {
+    width: 100%;
+    height: 90%;
+  }
+
+  .service_info {
+    width: 90%;
+    height: 150px;
+  }
+
+  .service_name {
+    width: 100%;
+    height: 50%;
+  }
+
+  .service_name i {
+    font-size: 20px;
+  }
+
+  .service_name p {
+    font-size: 15px;
+  }
+
+  .service_descrip {
+    width: 100%;
+    height: 50%;
+  }
+}

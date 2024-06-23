@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Manrope", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
   scrollbar-width: none;
@@ -12,7 +12,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url("./assets/BG_image.jpg");
+  background-image: url("./assets/Background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,20 +22,22 @@ body {
 .main_content {
   width: 100vw;
   height: 100vh;
-  position: relative; /* Cambiado de absolute a relative */
+  position: relative;
   top: 0;
   display: flex;
   overflow-x: hidden;
   flex-direction: column;
+  backdrop-filter: brightness(0.15) blur(1px);
 }
 
 section {
-  flex: 1; /* Permite que las secciones ocupen el espacio disponible */
+  flex: 1;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: brightness(15%);
   border: none;
+  background: transparent;
 }
 
 ul {
@@ -47,9 +49,6 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    background-image: url("./assets/BG_image.jpg");
-  }
   .main_content {
     width: 100vw;
     height: 100vh;

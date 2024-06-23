@@ -3,7 +3,7 @@
   --nav_width: 100%;
   --nav_content_width: 75%;
   --nav_content_height: 3.5rem;
-  --nav_content_width_mob: 90%;
+  --nav_content_width_mob: 97%;
   --nav_content_height_mob: 3.5rem;
   --nav_content_width_tab: 85%;
   --nav_content_height_tab: 3.5rem;
@@ -21,20 +21,20 @@
   left: 0;
   right: 0;
   z-index: 1;
-  background: transparent;
 }
 
 .navbar_content {
+  margin-top: 1rem;
   width: var(--nav_content_width);
   height: var(--nav_content_height);
   border-radius: 20px;
-  backdrop-filter: blur(30px);
-  box-shadow: 0px 0px 20px rgba(227, 228, 237, 0.37);
-  border: 2px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background:  rgba(255, 255, 255, 0.238);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .account_links {
@@ -66,8 +66,13 @@
 }
 
 .account_link i {
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 18px;
+}
+
+.account_links p {
+  font-size: 14px;
+  margin-bottom: 2px;
 }
 
 .portfolio_list {
@@ -85,21 +90,31 @@
 }
 
 .portfolio_link i {
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 18px;
 }
 
-.portfolio_link a:hover {
-  color: #00ffff;
+.portfolio_links p {
+  font-size: 14px;
+  margin-bottom: 2px;
 }
 
-.account_link a:hover {
-  color: #00ffff;
-}
+@media only screen and (width > 1200px) {
+  .account_link a:hover {
+    color: #00C9A7;
+    font-size: 24px;
+    transform: scale(1.15);
+  }
 
-.navbar_content:hover {
-  box-shadow: 0px 0px 10px #00ffff;
-  border: 2px solid #00ffff;
+  .portfolio_link a:hover {
+    color: #00C9A7;
+    transform: scale(1.15);
+  }
+
+  .navbar_content:hover {
+    box-shadow: 0px 0px 15px #00C9A7;
+    border: 1px solid #00C9A7;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -134,6 +149,7 @@
   .navbar_content {
     width: var(--nav_content_width_mob);
     height: var(--nav_content_height_mob);
+    box-shadow: none;
   }
 
   .account_links {
@@ -149,23 +165,18 @@
   }
 
   .portfolio_link a {
-    color: #ffff;
+    color: #00C9A7;
   }
 
   .portfolio_link i {
-    font-size: 20px;
+    font-size: 24px;
   }
 
   .portfolio_link a:hover {
-    color: #ffff;
+    color: #00C9A7;
   }
 
   .account_link a:hover {
-    color: #ffff;
-  }
-
-  .navbar_content:hover {
-    box-shadow: 0px 0px 1.5px rgba(227, 228, 237, 0.37);
-    border: 2px solid rgba(255, 255, 255, 0.18);
+    color: #00C9A7;
   }
 }

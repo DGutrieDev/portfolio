@@ -35,7 +35,7 @@ function Home() {
                     <p className="description_text">
                         Welcome to my porfolio website, here you can know more about me, the services what i offer,
                         you can see some projects and contact me.
-                        Actually i'm a computer science student in Costa Rica University, during this time in the University
+                        In this momment i'm a computer science student in Costa Rica University, during this time in the University
                         i participed in some software develops, especially in web develop using diferents frameworks and programming languages
                     </p>
                     <button className="cv">
