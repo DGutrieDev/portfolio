@@ -54,8 +54,9 @@
   height: 45px;
   margin: 1.5rem 0 0 3.5rem;
   border-radius: 5px;
-  background: transparent;
-  border: 2px solid #325a71;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.238);
+  backdrop-filter: blur(5px);
   outline: none;
   backdrop-filter: brightness(75%) blur(2px);
 }

@@ -24,9 +24,9 @@ function Projects() {
                 <div className="header_card">
                   <h2>Weather Forecast App</h2>
                   <div className="header_info">
-                    <i class="fa-brands fa-react"></i>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-css3"></i>
+                    <i className="fa-brands fa-react"></i>
+                    <i className="fa-brands fa-js"></i>
+                    <i className="fa-brands fa-css3"></i>
                   </div>
                 </div>
               </div>
@@ -42,14 +42,14 @@ function Projects() {
                   href="https://github.com/DGutrieDev/weather-forecast-app"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                   <p>Code</p>
                 </a>
                 <a
                   href="https://weather-dgutriedev.netlify.app/"
                   target="_blank"
                 >
-                  <i class="fas fa-eye"></i>
+                  <i className="fas fa-eye"></i>
                   <p>Preview</p>
                 </a>
               </div>
@@ -68,10 +68,10 @@ function Projects() {
                 <div className="header_card">
                   <h2>Destinos CR</h2>
                   <div className="header_info">
-                    <i class="fa-brands fa-laravel"></i>
-                    <i class="fa-brands fa-php"></i>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-css3"></i>
+                    <i className="fa-brands fa-laravel"></i>
+                    <i className="fa-brands fa-php"></i>
+                    <i className="fa-brands fa-js"></i>
+                    <i className="fa-brands fa-css3"></i>
                   </div>
                 </div>
               </div>
@@ -88,14 +88,14 @@ function Projects() {
                   href="https://github.com/DGutrieDev/Destinos_CR"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                   <p>Code</p>
                 </a>
                 <a
                   href="https://destinoscr2.000webhostapp.com/"
                   target="_blank"
                 >
-                  <i class="fas fa-eye"></i>
+                  <i className="fas fa-eye"></i>
                   <p>Preview</p>
                 </a>
               </div>
@@ -114,9 +114,9 @@ function Projects() {
                 <div className="header_card">
                   <h2>Portfolio Website</h2>
                   <div className="header_info">
-                    <i class="fa-brands fa-react"></i>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-css3"></i>
+                    <i className="fa-brands fa-react"></i>
+                    <i className="fa-brands fa-js"></i>
+                    <i className="fa-brands fa-css3"></i>
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@ function Projects() {
                   href="https://github.com/DGutrieDev/portfolio"
                   target="_blank"
                 >
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                   <p>Code</p>
                 </a>
               </div>

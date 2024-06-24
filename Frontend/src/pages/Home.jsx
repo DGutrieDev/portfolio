@@ -39,7 +39,7 @@ function Home() {
                         i participed in some software develops, especially in web develop using diferents frameworks and programming languages
                     </p>
                     <button className="cv">
-                        <a href="#">
+                        <a href="https://drive.google.com/file/d/1NRiRrZTtHTa8fPkof8bV7pUK7SO6gpCB/view" target="__blank">
                             See CV
                         </a>
                     </button>

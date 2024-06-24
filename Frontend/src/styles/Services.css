@@ -79,10 +79,10 @@
   .service_info:hover {
     transform: scale(1.1);
     .service_descrip {
-      color: #ffa500;
+      color: #00C9A7;
     }
     .service_name {
-      color: #ffa500;
+      color: #00C9A7;
     }
   }
 }
