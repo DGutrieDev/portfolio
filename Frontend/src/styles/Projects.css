@@ -195,8 +195,8 @@
   }
 
   .project_card {
-    width: 97%;
-    height: 160px;
+    width: 100%;
+    height: 170px;
     margin-bottom: 25px;
     display: flex;
     flex-direction: row;
@@ -225,7 +225,6 @@
 
   .info p {
     font-size: 9px;
-    max-width: 190px;
   }
 
   .links a {
@@ -233,6 +232,10 @@
     height: 25px;
     font-size: 12px;
     margin-bottom: 10px;
+  }
+
+  .links a:last-child {
+    margin-right: 10px;
   }
 
   .project_card:first-child{
