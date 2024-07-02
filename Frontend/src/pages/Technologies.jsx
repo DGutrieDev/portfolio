@@ -5,7 +5,7 @@ function Technologies() {
   return (
     <div className="tech_container">
       <div className="title_section">
-        <h1>Technologies</h1>
+        <h1 className="tech_tittle">Technologies</h1>
       </div>
       <div className="content_section">
         <div className="tech_card">
@@ -97,6 +97,10 @@ function Technologies() {
             <div className="tecs" translate="no">
               <i className="fa-brands fa-npm"></i>
               <p>NPM</p>
+            </div>
+            <div className="tecs" translate="no">
+              <i className="fa-solid fa-mobile"></i>
+              <p>Ionic</p>
             </div>
           </Fade>
         </div>

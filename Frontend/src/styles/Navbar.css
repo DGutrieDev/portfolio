@@ -165,7 +165,7 @@
   }
 
   .portfolio_link a {
-    color: #00C9A7;
+    color: #ffff;
   }
 
   .portfolio_link i {
@@ -173,10 +173,6 @@
   }
 
   .portfolio_link a:hover {
-    color: #00C9A7;
-  }
-
-  .account_link a:hover {
     color: #00C9A7;
   }
 }

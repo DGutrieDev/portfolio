@@ -43,6 +43,14 @@ function Home() {
                             See CV
                         </a>
                     </button>
+                    <div className="links_mobile">
+                        <a href="https://www.linkedin.com/in/denny-gutrie-arguedas-952621301/" target="__blank">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/DGutrieDev" target="__blank">
+                            <i className="fab fa-github"></i>
+                        </a>
+                    </div>
                 </Slide>
             </div>
             <div className="home_content_image">

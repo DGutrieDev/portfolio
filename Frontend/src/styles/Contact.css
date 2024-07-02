@@ -161,3 +161,144 @@
   margin-top: 5px;
 }
 
+
+@media only screen and (width < 769px){
+  .contact_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_container{
+    width: 100%;
+    height: 60%;
+    margin-top: 5rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  .text_form{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text_form h1{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  .text_form p{
+    font-size: 10px;
+    margin-left: 10px;
+    max-width: 200px;
+  }
+
+  .form_container form{
+    width: 100%;
+    height: 75%;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .form_container form input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.238);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .form_container form textarea{
+    width: 90%;
+    height: 85px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.238);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    color: #fff;
+    resize: none;
+  }
+
+  .form_container form button{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.238);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .copy_email{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copy_email p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+  } 
+
+  .email{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .email input{
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.238);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: default;
+  }
+
+  .email button{
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.238);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}
