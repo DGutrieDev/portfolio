@@ -240,6 +240,10 @@
     margin-bottom: 10px;
   }
 
+  .links a:last-child {
+    margin-right: 10px;
+  }
+
   .project_card:first-child{
     margin-top: 2rem;
   }
