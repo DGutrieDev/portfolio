@@ -1,7 +1,7 @@
 const projectsData = [
     {
       title: "Weather Forecast App",
-      image: "/assets/WeatherApp.png",
+      image: "assets/WeatherApp.webp",
       description:
         "Weather App is a web application that allows users to check the weather of any city in the world. The app uses the OpenWeatherMap API to fetch the weather data.",
       technologies: ["fa-react", "fa-js", "fa-css3"],
@@ -12,7 +12,7 @@ const projectsData = [
     },
     {
       title: "Destinos CR",
-      image: "/assets/DestinosCR.png",
+      image: "assets/DestinosCR.webp",
       description:
         "Touristics web application that allows users to check the best places to visit in Costa Rica. The app uses recommendations system based on user preferences and searches. Collaborative project with other developers.",
       technologies: ["fa-laravel", "fa-php", "fa-js", "fa-css3"],
@@ -22,7 +22,7 @@ const projectsData = [
     },
     {
       title: "Portfolio Template",
-      image: "/assets/Portfolio.png",
+      image: "/assets/Portfolio.webp",
       description:
         "Portfolio website to show my projects and skills. Developed with React, JS, and CSS.",
       technologies: ["fa-react", "fa-js", "fa-css3"],
