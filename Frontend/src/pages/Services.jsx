@@ -3,15 +3,15 @@ import { Fade } from "react-awesome-reveal";
 
 function Services() {
   return (
-    <div className="services_container">
-      <div className="service_tittle">
+    <section className="services_container">
+      <header className="service_title">
         <h1>Services</h1>
-      </div>
+      </header>
       <div className="service_content">
         <Fade>
-          <div className="service_info">
+          <article className="service_info">
             <div className="service_name">
-              <i className="fa-brands fa-chrome"></i>
+              <i className="fa-brands fa-chrome" aria-hidden="true"></i>
               <p>Web Development</p>
             </div>
             <div className="service_descrip">
@@ -21,34 +21,34 @@ function Services() {
                 technologies.
               </p>
             </div>
-          </div>
-          <div className="service_info">
+          </article>
+          <article className="service_info">
             <div className="service_name">
-              <i className="fa-solid fa-database"></i>
+              <i className="fa-solid fa-database" aria-hidden="true"></i>
               <p>Database Development</p>
             </div>
             <div className="service_descrip">
               <p>
                 Design, implementation, and optimization of databases using SQL,
-                SQL Server, and MySQL to ensure efficient and secure data
+                SQL Server, and MySQL to ensure efficient and secure data management.
               </p>
             </div>
-          </div>
-          <div className="service_info">
+          </article>
+          <article className="service_info">
             <div className="service_name">
-              <i className="fa-solid fa-file"></i>
+              <i className="fa-solid fa-file" aria-hidden="true"></i>
               <p>Requirements Analysis</p>
             </div>
             <div className="service_descrip">
               <p>
                 Detailed gathering and analysis of project requirements to
-                ensure a clear and precise understanding of the client`s needs,
+                ensure a clear and precise understanding of the client's needs.
               </p>
             </div>
-          </div>
+          </article>
         </Fade>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -7,7 +7,7 @@ import Technologies from "./pages/Technologies";
 import Services from "./pages/Services";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import About from "./pages/About";
+import Experience from "./pages/Experience";
 
 function App() {
   return (
@@ -26,11 +26,11 @@ function App() {
         <section id="Services">
           <Services></Services>
         </section>
+        <section id="Experience">
+          <Experience></Experience>
+        </section>
         <section id="Contact">
           <Contact></Contact>
-        </section>
-        <section id="About">
-          <About></About>
         </section>
       </div>
     </>

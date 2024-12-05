@@ -50,15 +50,15 @@ function Navbar() {
               </a>
             </li>
             <li className="portfolio_link">
-              <a href="#Contact">
-                <i className="bx bx-envelope"></i>
-                <p>Contact</p>
+              <a href="#Experience">
+                <i class='bx bx-star'></i>
+                <p>Experience</p>
               </a>
             </li>
             <li className="portfolio_link">
-              <a href="#About">
-                <i className="bx bx-user"></i>
-                <p>About</p>
+              <a href="#Contact">
+                <i className="bx bx-envelope"></i>
+                <p>Contact</p>
               </a>
             </li>
           </ul>
